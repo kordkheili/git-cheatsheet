@@ -11,6 +11,8 @@
 
 ---
 
+![The San Juan Mountains are beautiful!](assets/images/diagram.png "San Juan Mountains")
+
 ## 1. Cheatsheet : SETUP
 
 | Commands                       | Description |
