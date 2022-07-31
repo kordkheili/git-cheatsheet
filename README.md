@@ -17,6 +17,7 @@
 | ------------------------------ | ----------- |
 | git config --global user.name  |             |
 | git config --global user.email |             |
+| gh auth login                  |             |
 
 ## 2. Cheatsheet : INIT
 
