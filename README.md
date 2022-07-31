@@ -11,9 +11,64 @@
 
 ---
 
-## Cheatsheet
+## 1. Cheatsheet : SETUP
 
-| Commands                       | Description          |
-| ------------------------------ | -------------------- |
-| git config --global user.name  | Alireza Mohammadi    |
-| git config --global user.email | websila.ir@gmail.com |
+| Commands                       | Description |
+| ------------------------------ | ----------- |
+| git config --global user.name  |             |
+| git config --global user.email |             |
+
+## 2. Cheatsheet : INIT
+
+| Commands        | Description |
+| --------------- | ----------- |
+| git init        |             |
+| git clone [url] |             |
+
+## 3. Cheatsheet : STAGE & SNAPSHOT
+
+| Commands                             | Description |
+| ------------------------------------ | ----------- |
+| git status                           |             |
+| git add [file.txt]                   |             |
+| git add -A                           |             |
+| git reset [file.txt]                 |             |
+| git clean -fd                        |             |
+| git diff                             |             |
+| git commit -m "your message here..." |             |
+
+## 4. Cheatsheet : BRANCH & MERGE
+
+| Commands                  | Description |
+| ------------------------- | ----------- |
+| git branch                |             |
+| git branch [[branch-name] |             |
+| git checkout              |             |
+| git merge [branch-name]   |             |
+| git log                   |             |
+
+## 5. IGNORING PATTERNS (.gitignore)
+
+| PATTERNS      | Description |
+| ------------- | ----------- |
+| node_modules/ |             |
+| \*.jpg        |             |
+
+## 6. SHARE & UPDATE
+
+| Commands                                    | Description |
+| ------------------------------------------- | ----------- |
+| git remote add [your-new-remote-name] [url] |             |
+| git fetch [remote-name]                     |             |
+| git merge [remote-name]/[branch-name]       |             |
+| git push [remote-name] [branch-name]        |             |
+| git fetch [remote-name] [branch-name]       |             |
+| git pull                                    |             |
+
+## 7. GO BACK & REWRITE HISTORY
+
+| Commands                                | Description |
+| --------------------------------------- | ----------- |
+| git reset --hard [commit]               |             |
+| git clean -fd                           |             |
+| git push [remote-name] [branch-name] -f |             |
