@@ -56,14 +56,12 @@
 
 ## 6. SHARE & UPDATE
 
-| Commands                                    | Description |
-| ------------------------------------------- | ----------- |
-| git remote add [your-new-remote-name] [url] |             |
-| git fetch [remote-name]                     |             |
-| git merge [remote-name]/[branch-name]       |             |
-| git push [remote-name] [branch-name]        |             |
-| git fetch [remote-name] [branch-name]       |             |
-| git pull                                    |             |
+| Commands                               | Description |
+| -------------------------------------- | ----------- |
+| git remote add [new-remote-name] [url] |             |
+| git push [remote-name] [branch-name]   |             |
+| git pull                               |             |
+| git fetch [remote-name]                |             |
 
 ## 7. GO BACK & REWRITE HISTORY
 
