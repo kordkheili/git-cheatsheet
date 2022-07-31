@@ -13,30 +13,30 @@
 
 ## 1. Cheatsheet : SETUP
 
-| Commands                       | Description |
-| ------------------------------ | ----------- |
-| git config --global user.name  |             |
-| git config --global user.email |             |
-| gh auth login                  |             |
+| Commands                       | Description      |
+| ------------------------------ | ---------------- |
+| git config --global user.name  | add global name  |
+| git config --global user.email | add global email |
+| gh auth login                  | login to github  |
 
 ## 2. Cheatsheet : INIT
 
-| Commands        | Description |
-| --------------- | ----------- |
-| git init        |             |
-| git clone [url] |             |
+| Commands        | Description                        |
+| --------------- | ---------------------------------- |
+| git init        | create a new git repository        |
+| git clone [url] | download a git repository from url |
 
 ## 3. Cheatsheet : STAGE & SNAPSHOT
 
-| Commands                             | Description |
-| ------------------------------------ | ----------- |
-| git status                           |             |
-| git add [file.txt]                   |             |
-| git add -A                           |             |
-| git reset [file.txt]                 |             |
-| git clean -fd                        |             |
-| git diff                             |             |
-| git commit -m "your message here..." |             |
+| Commands                             | Description                                 |
+| ------------------------------------ | ------------------------------------------- |
+| git status                           |                                             |
+| git add [file.txt]                   |                                             |
+| git add -A                           |                                             |
+| git reset [file.txt]                 | unstage file.txt                            |
+| git clean -fd                        | remove all new staged files and directories |
+| git diff                             |                                             |
+| git commit -m "your message here..." |                                             |
 
 ## 4. Cheatsheet : BRANCH & MERGE
 
@@ -57,17 +57,17 @@
 
 ## 6. SHARE & UPDATE
 
-| Commands                               | Description |
-| -------------------------------------- | ----------- |
-| git remote add [new-remote-name] [url] |             |
-| git push [remote-name] [branch-name]   |             |
-| git pull                               |             |
-| git fetch [remote-name]                |             |
+| Commands                               | Description                             |
+| -------------------------------------- | --------------------------------------- |
+| git remote add [new-remote-name] [url] |                                         |
+| git push [remote-name] [branch-name]   | submit local commits in remote          |
+| git pull                               | fetch and merge any commits from remote |
+| git fetch [remote-name]                | fetch all branches from remote          |
 
 ## 7. GO BACK & REWRITE HISTORY
 
-| Commands                                | Description |
-| --------------------------------------- | ----------- |
-| git reset --hard [commit]               |             |
-| git clean -fd                           |             |
-| git push [remote-name] [branch-name] -f |             |
+| Commands                                | Description                                                    |
+| --------------------------------------- | -------------------------------------------------------------- |
+| git reset --hard [commit]               | hard reset to selected commit                                  |
+| git clean -fd                           | remove all new staged files and directories                    |
+| git push [remote-name] [branch-name] -f | force submit local commits in remote<br>(remove ahead commits) |
