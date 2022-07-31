@@ -9,9 +9,7 @@
 - [git](https://git-scm.com/downloads)
 - [github cli ](https://cli.github.com/)
 
----
-
-![The San Juan Mountains are beautiful!](assets/images/diagram.jpg "San Juan Mountains")
+![](assets/images/diagram.jpg "Git States")
 
 ## 1. Cheatsheet : SETUP
 
