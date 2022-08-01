@@ -9,7 +9,7 @@
 - [git](https://git-scm.com/downloads)
 - [github cli ](https://cli.github.com/)
 
-![](assets/images/diagram.jpg "Git States")
+!["Git States"](assets/images/diagram.jpg "Git States")
 
 ## 1. Cheatsheet : SETUP
 
@@ -69,5 +69,5 @@
 | Commands                                | Description                                                    |
 | --------------------------------------- | -------------------------------------------------------------- |
 | git reset --hard [commit]               | hard reset to selected commit                                  |
-| git clean -fd                           | remove untracked files and directories                    |
+| git clean -fd                           | remove untracked files and directories                         |
 | git push [remote-name] [branch-name] -f | force submit local commits in remote<br>(remove ahead commits) |
