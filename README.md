@@ -32,7 +32,8 @@
 | ------------------------------------ | ---------------------------------------------------------------------------- |
 | git status                           |                                                                              |
 | git add -A                           | stage all files                                                              |
-| git reset --hard                     | Changes to modified files are discarded but untracked files are untouched    |
+| git reset                            | unstage all                                                                  |
+| git reset --hard                     | 1-unstage all <br> 2-discard all changes compare to last commit              |
 | git clean -fd                        | Untracked files and directories are removed but modified files are unchanged |
 | git diff                             |                                                                              |
 | git commit -m "your message here..." |                                                                              |
@@ -43,7 +44,7 @@
 | ------------------------ | ------------------------------------------------------------------------- |
 | git branch               |                                                                           |
 | git branch [branch-name] |                                                                           |
-| git checkout             | Changes to modified files are discarded but untracked files are untouched |
+| git checkout [commit]    | Changes to modified files are discarded but untracked files are untouched |
 | git merge [branch-name]  |                                                                           |
 | git log                  |                                                                           |
 
@@ -67,7 +68,8 @@
 
 | Commands                                | Description                                                                  |
 | --------------------------------------- | ---------------------------------------------------------------------------- |
-| git reset --hard [commit]               | Changes to modified files are discarded but untracked files are untouched    |
+| git reset                               | unstage all                                                                  |
+| git reset --hard                        | 1-unstage all <br> 2-discard all changes compare to last commit              |
 | git clean -fd                           | Untracked files and directories are removed but modified files are unchanged |
 | git push [remote-name] [branch-name] -f | force submit local commits in remote<br>(remove ahead commits)               |
 
