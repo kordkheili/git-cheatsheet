@@ -31,8 +31,8 @@
 | Commands                             | Description                                 |
 | ------------------------------------ | ------------------------------------------- |
 | git status                           |                                             |
-| git add [file.txt]                   |                                             |
-| git add -A                           |                                             |
+| git add [file.txt]                   | add file.txt changes to stage               |
+| git add -A                           | add all changes to stage                    |
 | git reset [file.txt]                 | unstage file.txt                            |
 | git clean -fd                        | remove all new staged files and directories |
 | git diff                             |                                             |
