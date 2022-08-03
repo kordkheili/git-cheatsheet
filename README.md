@@ -72,6 +72,6 @@
 | git clean -fd                           | remove untracked files and directories                         |
 | git push [remote-name] [branch-name] -f | force submit local commits in remote<br>(remove ahead commits) |
 
-## References
+## Articles
 
 [git-checkout-clean-reset](https://remarkablemark.org/blog/2018/10/09/git-checkout-clean-reset/)
