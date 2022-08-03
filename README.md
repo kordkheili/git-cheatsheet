@@ -74,4 +74,4 @@
 
 ## Related Articles
 
-[git-checkout-clean-reset](https://remarkablemark.org/blog/2018/10/09/git-checkout-clean-reset/)
+- [git-checkout-clean-reset](https://remarkablemark.org/blog/2018/10/09/git-checkout-clean-reset/)
