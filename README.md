@@ -31,22 +31,21 @@
 | Commands                             | Description                                                                  |
 | ------------------------------------ | ---------------------------------------------------------------------------- |
 | git status                           |                                                                              |
-| git add [file.txt]                   | add file.txt changes to stage                                                |
-| git add -A                           | add all changes to stage                                                     |
-| git reset [file.txt]                 | unstage file.txt                                                             |
+| git add -A                           | stage all files                                                              |
+| git reset --hard                     | Changes to modified files are discarded but untracked files are untouched    |
 | git clean -fd                        | Untracked files and directories are removed but modified files are unchanged |
 | git diff                             |                                                                              |
 | git commit -m "your message here..." |                                                                              |
 
 ## 4. Cheatsheet : BRANCH & MERGE
 
-| Commands                  | Description                                                               |
-| ------------------------- | ------------------------------------------------------------------------- |
-| git branch                |                                                                           |
-| git branch [[branch-name] |                                                                           |
-| git checkout              | Changes to modified files are discarded but untracked files are untouched |
-| git merge [branch-name]   |                                                                           |
-| git log                   |                                                                           |
+| Commands                 | Description                                                               |
+| ------------------------ | ------------------------------------------------------------------------- |
+| git branch               |                                                                           |
+| git branch [branch-name] |                                                                           |
+| git checkout             | Changes to modified files are discarded but untracked files are untouched |
+| git merge [branch-name]  |                                                                           |
+| git log                  |                                                                           |
 
 ## 5. IGNORING PATTERNS (.gitignore)
 
