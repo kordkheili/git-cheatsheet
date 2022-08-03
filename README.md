@@ -28,15 +28,15 @@
 
 ## 3. Cheatsheet : STAGE & SNAPSHOT
 
-| Commands                             | Description                                 |
-| ------------------------------------ | ------------------------------------------- |
-| git status                           |                                             |
-| git add [file.txt]                   | add file.txt changes to stage               |
-| git add -A                           | add all changes to stage                    |
-| git reset [file.txt]                 | unstage file.txt                            |
-| git clean -fd                        | remove all new staged files and directories |
-| git diff                             |                                             |
-| git commit -m "your message here..." |                                             |
+| Commands                             | Description                                                                  |
+| ------------------------------------ | ---------------------------------------------------------------------------- |
+| git status                           |                                                                              |
+| git add [file.txt]                   | add file.txt changes to stage                                                |
+| git add -A                           | add all changes to stage                                                     |
+| git reset [file.txt]                 | unstage file.txt                                                             |
+| git clean -fd                        | Untracked files and directories are removed but modified files are unchanged |
+| git diff                             |                                                                              |
+| git commit -m "your message here..." |                                                                              |
 
 ## 4. Cheatsheet : BRANCH & MERGE
 
@@ -66,11 +66,11 @@
 
 ## 7. GO BACK & REWRITE HISTORY
 
-| Commands                                | Description                                                    |
-| --------------------------------------- | -------------------------------------------------------------- |
-| git reset --hard [commit]               | hard reset to selected commit                                  |
-| git clean -fd                           | remove untracked files and directories                         |
-| git push [remote-name] [branch-name] -f | force submit local commits in remote<br>(remove ahead commits) |
+| Commands                                | Description                                                                  |
+| --------------------------------------- | ---------------------------------------------------------------------------- |
+| git reset --hard [commit]               | Changes to modified files are discarded but untracked files are untouched    |
+| git clean -fd                           | Untracked files and directories are removed but modified files are unchanged |
+| git push [remote-name] [branch-name] -f | force submit local commits in remote<br>(remove ahead commits)               |
 
 ## Related Articles
 
