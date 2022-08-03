@@ -40,13 +40,13 @@
 
 ## 4. Cheatsheet : BRANCH & MERGE
 
-| Commands                  | Description |
-| ------------------------- | ----------- |
-| git branch                |             |
-| git branch [[branch-name] |             |
-| git checkout              |             |
-| git merge [branch-name]   |             |
-| git log                   |             |
+| Commands                  | Description                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+| git branch                |                                                                           |
+| git branch [[branch-name] |                                                                           |
+| git checkout              | Changes to modified files are discarded but untracked files are untouched |
+| git merge [branch-name]   |                                                                           |
+| git log                   |                                                                           |
 
 ## 5. IGNORING PATTERNS (.gitignore)
 
@@ -71,3 +71,7 @@
 | git reset --hard [commit]               | hard reset to selected commit                                  |
 | git clean -fd                           | remove untracked files and directories                         |
 | git push [remote-name] [branch-name] -f | force submit local commits in remote<br>(remove ahead commits) |
+
+## References
+
+[git-checkout-clean-reset](https://remarkablemark.org/blog/2018/10/09/git-checkout-clean-reset/)
