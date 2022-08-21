@@ -61,7 +61,7 @@
 | -------------------------------------- | --------------------------------------- |
 | git remote add [new-remote-name] [url] |                                         |
 | git push [remote-name] [branch-name]   | submit local commits in remote          |
-| git pull                               | fetch and merge any commits from remote |
+| git pull                               | pull is a combination of 2 different commands: fetch & merge|
 | git fetch                              | refresh & update git history            |
 
 ## 7. GO BACK & REWRITE HISTORY
