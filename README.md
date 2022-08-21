@@ -62,7 +62,7 @@
 | git remote add [new-remote-name] [url] |                                         |
 | git push [remote-name] [branch-name]   | submit local commits in remote          |
 | git pull                               | fetch and merge any commits from remote |
-| git fetch [remote-name]                | fetch all branches from remote          |
+| git fetch                              | refresh & update git history            |
 
 ## 7. GO BACK & REWRITE HISTORY
 
