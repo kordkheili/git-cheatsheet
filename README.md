@@ -13,11 +13,11 @@
 
 ## 1. Cheatsheet : SETUP
 
-| Commands                       | Description      |
-| ------------------------------ | ---------------- |
-| git config --global user.name  | add global name  |
-| git config --global user.email | add global email |
-| gh auth login                  | login to github  |
+| Commands                                                | Description      |
+| ------------------------------------------------------- | ---------------- |
+| git config --global user.name "Alireza"                 | add global name  |
+| git config --global user.email "mkalireza.ir@gmail.com" | add global email |
+| gh auth login                                           | login to github  |
 
 ## 2. Cheatsheet : INIT
 
@@ -57,12 +57,12 @@
 
 ## 6. SHARE & UPDATE
 
-| Commands                               | Description                             |
-| -------------------------------------- | --------------------------------------- |
-| git remote add [new-remote-name] [url] |                                         |
-| git push [remote-name] [branch-name]   | submit local commits in remote          |
-| git pull                               | pull is a combination of 2 different commands: fetch & merge|
-| git fetch                              | refresh & update git history            |
+| Commands                               | Description                                                  |
+| -------------------------------------- | ------------------------------------------------------------ |
+| git remote add [new-remote-name] [url] |                                                              |
+| git push [remote-name] [branch-name]   | submit local commits in remote                               |
+| git pull                               | pull is a combination of 2 different commands: fetch & merge |
+| git fetch                              | refresh & update git history                                 |
 
 ## 7. GO BACK & REWRITE HISTORY
 
