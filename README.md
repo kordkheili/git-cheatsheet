@@ -15,6 +15,7 @@
 
 | Commands                                                | Description      |
 | ------------------------------------------------------- | ---------------- |
+| first you have to download and install git              |                  |
 | git config --global user.name "Alireza"                 | add global name  |
 | git config --global user.email "mkalireza.ir@gmail.com" | add global email |
 | gh auth login                                           | login to github  |
